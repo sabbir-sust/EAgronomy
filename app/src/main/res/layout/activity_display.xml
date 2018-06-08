@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_row="1"
+        android:layout_gravity="top"
+        android:layout_column="0"
+        android:layout_columnSpan="6"
+        android:layout_rowSpan="8">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/displayTable"
+            >
+
+            <TableRow>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:text="Fertilizer (gm/decimal)"
+                    android:background="@android:color/holo_blue_bright"
+                    android:textColor="@android:color/background_light"
+                    android:textColorLink="@android:color/transparent"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:layout_span="6"
+                    android:layout_width="450dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="3dp"
+                    />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="30dp">
+            </View>
+
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="Fertilizer"
+                    android:id="@+id/textfertilizer"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_orange_dark"
+                    android:textColor="@android:color/background_light"
+                    android:textColorLink="@android:color/transparent"
+                    android:textSize="25sp"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    />
+                <TextView
+                    android:text="Amount"
+                    android:layout_weight="1"
+                    android:id="@+id/textamount"
+                    android:background="@android:color/holo_orange_light"
+                    android:textColor="@android:color/background_light"
+                    android:textColorLink="@android:color/transparent"
+                    android:textSize="25sp"
+                    android:layout_column="1"
+                    android:gravity="center"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="Urea"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_height="50dp"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/texturea" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textureaval" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="T.S.P."
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/texttsp" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/texttspval" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="M.O.P."
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textmop" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textmopval" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="Gypsum"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textgypsum" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textgypsumval" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="ZincSulfate"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textzinc" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textzincval" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="Soluble"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textsoluble" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textsolubleval" />
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</GridLayout>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/goldfield">
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_row="1"
+        android:layout_gravity="top"
+        android:layout_column="0"
+        android:layout_columnSpan="6"
+        android:layout_rowSpan="8">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/displayTable"
+            >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="Area"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_height="50dp"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/textarea"
+                    android:layout_gravity="left"
+                    />
+
+                <EditText
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textareaval"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="Land"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_height="50dp"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/textland"
+                    android:layout_gravity="left"/>
+
+                <EditText
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textlandval"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="Crop"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_height="50dp"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/textcrop"
+                    android:layout_gravity="left"/>
+
+                <EditText
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/textcropval"
+                />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="Urea"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_height="50dp"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/texturea"
+                    android:layout_gravity="left"/>
+
+                <EditText
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textureaup"
+                    android:inputType="number"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="T.S.P."
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/texttsp"
+                    android:layout_gravity="left"/>
+
+                <EditText
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/texttspup"
+                    android:inputType="number"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="M.O.P."
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textmop"
+                    android:layout_gravity="left"/>
+
+                <EditText
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textmopup"
+                    android:inputType="number"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="Gypsum"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textgypsum"
+                    android:layout_gravity="left"/>
+
+                <EditText
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/textgypsumup"
+                android:inputType="number"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="Zinc"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textzinc"
+                    android:layout_gravity="left"/>
+
+                <EditText
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textzincup"
+                    android:inputType="number"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:text="Soluble"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textsoluble"
+                    android:layout_gravity="left"/>
+
+                <EditText
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/textsolup"
+                    android:inputType="number"/>
+            </TableRow>
+
+            <Button
+                android:text="Update"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:maxWidth="40dp"
+                android:id="@+id/query_button" />
+
+        </TableLayout>
+
+    </ScrollView>
+
+</FrameLayout>
